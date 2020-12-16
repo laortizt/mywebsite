@@ -94,8 +94,34 @@ header nav a {
 #mainmenu {
 	font-family: "Nunito";
 	float: right;
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 500;
+}
+
+.id-color{
+
+}
+
+/*menu neón*/
+.neon {
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #fff;
+	letter-spacing: 4px;
+	font-size: 18px;
+	overflow: hidden;
+	transition: 0.2s;
+}
+
+.neon.active {
+	color: #a945c7;
+}
+
+.neon:hover {
+	background: #a945c7;
+	color: #fff;
+	box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
 }
 
 #mainmenu li {
@@ -106,6 +132,7 @@ header nav a {
 	list-style: none;
 	position: relative;
 }
+
 #mainmenu a {
 	display: inline-block;
 	padding: 25px 15px 25px 15px;
@@ -115,6 +142,7 @@ header nav a {
 	text-align: center;
 	outline: none;
 }
+
 #mainmenu a span{
 	height:2px;
 	display:block;
@@ -125,24 +153,9 @@ header nav a {
 #mainmenu a.active span{
 	width:100%;
 }
+
 .header-light #mainmenu>li>a {
-	color: #222;
-}
-#mainmenu li a:after {
-	float: right;
-	position: relative;
-	font-family: "FontAwesome";
-	content: "\f111";
-	font-size: 6px;
-	margin-left: 20px;
-	margin-top: 0px;
-	color: #f7c51e;
-}
-#mainmenu li:last-child a:after {
-	display: none;
-}
-#mainmenu.no-separator li a:after {
-	font-size: 0px;
+	color: #ddd6;
 }
 
 #menu-btn {
@@ -296,13 +309,35 @@ a.btn-custom, .btn-custom, a.btn-slider, .btn-slider {
 	font-size: 12px;
 	min-width: 120px;
 }
+/*  boton portafolio*/
 a.btn-custom, .btn-custom {
-	background: #eee;
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #fff;
+	letter-spacing: 4px;
+	font-size: 18px;
+	overflow: hidden;
+	transition: 0.2s;
+
+	/*background: #eee;
 	color: #fff;
 	border-radius: 3px;
 	padding: 15px 30px 15px 30px;
-	min-width: 120px;
+	min-width: 120px;*/
 }
+
+
+.btn-custom {
+	color: #a945c7;
+}
+
+.btn-custom{
+	background: #a945c7;
+	color: #fff;
+}
+
+
 
 .spacer-single {
 	width: 100%;
@@ -627,8 +662,10 @@ span.overlay {
 	top:0;
 }
 
+
+/* COLOR SECCION NAV*/
 .side-layout header.header-light{
-	background:#fff;
+	background:rgb(29, 29, 29);
 	border-right:solid 1px #eee;
 }
 
@@ -664,7 +701,6 @@ span.overlay {
 .side-layout #mainmenu > li{
 	display:block;
 	width:100%;
-	border-bottom:solid 1px rgba(255,255,255,.1);
 	margin-bottom:5px;
 	padding-bottom:5px;
 }
@@ -677,9 +713,6 @@ span.overlay {
 	margin:0;
 }
 
-.side-layout #mainmenu > li > a span{
-	display:none;
-}
 .side-layout header div#logo {
 	display: block;
 	float:none;

@@ -59,13 +59,6 @@ span.overlay,
 .pricing-s1 .ribbon,
 .de_tab.tab_style_4 .de_nav li.active,
 #preloader .s1 span,
-
-/* COLOR BOTON PORTAFOLIO */
-#mainmenu a span
-{
-	background-color:#8f72ec;
-}
-
 .feature-box i,
 #mainmenu li:hover > ul,
 #mainmenu li:hover > a,
@@ -121,13 +114,6 @@ h2.hs1 span,
 .profile_pic .subtitle,
 .countdown-s3 .countdown-period,
 .countdown-s4 .countdown-period,
-
-/* COLOR SUBTITULOS */
-.social-icons i:hover
-{
-	color:#e36fce ;
-}
-
 .feature-box i,
 .pagination > .active > a,
 .pagination > .active > span,
@@ -150,9 +136,16 @@ h2.hs1 span,
 .exp-box h5,
 .social-icons i:hover
 {
-
-	border-color:#ff4242 ;
+	border-color:#e36fce;
 }
+
+
+/* COLOR SUBTITULOS */
+.social-icons i:hover
+{
+	color:#e36fce ;
+}
+
 
 /* COLOR BARRAS DE ESTADO*/
 span.overlay,
