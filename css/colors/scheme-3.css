@@ -159,6 +159,8 @@ background: linear-gradient(45deg, #8f72ec 0%,#e36fce 100%); /* W3C, IE10+, FF16
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea664f', endColorstr='#ffb736',GradientType=1 ); /* IE6-9 */
 }
 
+
+
 .de-progress .progress-bar{
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ea664f+0,ffb736+100 */
 background: #e36fce ; /* Old browsers */

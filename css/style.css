@@ -158,8 +158,17 @@ header nav a {
 	color: #ddd6;
 }
 
+/* color iconos lenguajes*/
+.fab{
+	color: #8f72ec
+}
+
+.fab:hover{
+	color: white
+}
+
 #menu-btn {
-	display: none;
+	
 	float: right;
 	margin-top: 0px;
 	width: 36px;
