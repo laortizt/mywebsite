@@ -299,12 +299,12 @@ header.header-light .logo-2{
 }
 .de_light #contact_form input[type=text], .de_light #contact_form textarea, .de_light #contact_form input[type=email], .de_light #search {
 	background:none;
-	border:solid 3px rgba(255,255,255,.1);
+	border:solid 3px rgba(59, 31, 160, 0.1);
 }
 
 .de_light #contact_form.s1 input[type=text], .de_light #contact_form.s1 textarea, .de_light #contact_form.s1 input[type=email], .de_light #search {
 	background:none;
-	border:solid 2px rgba(0,0,0,.1);
+	border:solid 2px #6430b7;
 	color:#555555;
 }
 
