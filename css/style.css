@@ -354,6 +354,31 @@ a.btn-custom, .btn-custom, a.btn-slider, .btn-slider {
 	font-size: 12px;
 	min-width: 120px;
 }
+
+
+/* buscador*/
+.search {
+  color: #fff;
+  padding: 30px 20px;
+  align-items: center;
+}
+
+.search input {
+  border-radius: 50px;
+  font-size: 14px;
+  padding: 10px 15px;
+  width: 50%;
+  background: white;
+  box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+  color: #000;
+  border-style: none;
+}
+
+.search input:focus {
+  outline: none;
+}
+
+
 /*  boton portafolio*/
 a.btn-custom, .btn-custom {
 	position: relative;
