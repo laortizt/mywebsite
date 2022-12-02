@@ -249,13 +249,13 @@ footer a:visited {
 	color: #ccc;
 }
 footer .row .col-md-12 {
-	margin-bottom: 0;
+	margin-bottom: 10;
 }
 .subfooter {
 	font-size:13px;
-	background: #232323;
+	background: rgb(29, 29, 29);
 	margin-top: 0;
-	padding: 30px 0 20px 0;
+	padding: 10px 0 20px 0;
 }
 header.header-light {
 	background: rgba(0, 0, 0, 0.96);
@@ -736,7 +736,6 @@ span.overlay {
 /* COLOR SECCION NAV*/
 .side-layout header.header-light{
 	background:rgb(29, 29, 29);
-	border-right:solid 1px #eee;
 }
 
 .side-layout #content{
